@@ -26,7 +26,7 @@ button{
 }
 
 body{
-    background-color: #100e0f;
+    background-color:#010825;
 }
 
 /* Nav start */
@@ -56,7 +56,59 @@ li a:hover{
 }
 
  /* nav end  */
- 
+
+
+ /* header start  */
+
+ .header{
+    background-image: url('https://images.unsplash.com/photo-1516646227334-6102731f3c25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;    
+    background-size: cover;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+    font-weight: normal; 
+
+    /* flexbox  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+
+ }
+
+ .main-headings{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+
+}
+
+.primary-head{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom:-40px ;
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background-color: var(--main-color);
+    transform: translateY(60px);
+
+
+}
+
+
+
 
 
 
