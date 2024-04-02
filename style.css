@@ -188,6 +188,84 @@ margin: 20px 0;
     font-family: sans-serif;
     color: #fff;
 }
+/* coffee end  */
+
+/* Product section start  */
+
+.products{
+    margin-top: 5rem;
+
+}
+
+.title_three{
+ font-size: 4rem;
+ margin-left: 10rem;
+ margin-top: 10rem;
+ margin-bottom: 10rem;
+}
+
+.cards{
+   display: flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    border: 2px solid var(--main-color);
+}
+.img-one{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGtW0Iw9fHTKFgk1HRGlre_OINqD71ADzG7bUihH007ER2q2r_BwfRQwCLsxVMhc2ZNQ&usqp=CAU');
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url('https://img.freepik.com/premium-photo/coffee-cup-white-background-spilled-coffee-cup-spilled-coffee-white-table-watercolor_183577-1216.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url('https://png.pngtree.com/background/20230522/original/pngtree-coffee-pours-into-a-cup-with-coffee-beans-surrounding-it-picture-image_2691333.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+
+
+}
+
+.card .items p {
+    color: white;
+    margin: 20px 0;
+    font-family:sans-serif;
+
+}
+
+
+/* Product section end  */
 
 
 
