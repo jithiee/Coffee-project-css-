@@ -268,7 +268,30 @@ margin: 20px 0;
 /* Product section end  */
 
 
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
 
+}
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    
+}
+footer .heading-info{
+    margin-bottom: 20px;
+
+}
+
+footer p {
+    
+}
 
 
 
